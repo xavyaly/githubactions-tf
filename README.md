@@ -338,7 +338,7 @@ Fast-forward
 In case if interested
 '''
 
-# Add a new line and push the changes on main branch, new commit id created and job executed
+# Add a new line and push the changes on main branch, new commit id: "fa9169ac0e1cd03289cd7aaccba14bb896c5c376" created and job executed
 '''
 https://github.com/xavyaly/githubactions-tf/actions/runs/11662087827/job/32467728371
 '''
