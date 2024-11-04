@@ -303,5 +303,42 @@ aws_instance.web_server: Destruction complete after 4m43s
 Destroy complete! Resources: 1 destroyed.
 '''
 
+# Configuration Steps:
+'''
+Click on "Actions" 
+Click on "Terraform" 
+Click on "configure" -> terraform.yml
+Click on "Commit changes..."
+'''
+
+# New file created:
+'''
+.github/workflows/terraform.yml
+'''
+
+# Pull the changes to local
+'''
+git pull 
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 5 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (5/5), 2.37 KiB | 347.00 KiB/s, done.
+From https://github.com/xavyaly/githubactions-tf
+   8e0c31d..97d6540  main       -> origin/main
+Updating 8e0c31d..97d6540
+Fast-forward
+ .github/workflows/terraform.yml | 93 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 93 insertions(+)
+ create mode 100644 .github/workflows/terraform.yml
+'''
+
+# Remove the unwanted content and push to remote
+'''
+
+'''
+
+
+
 
 
